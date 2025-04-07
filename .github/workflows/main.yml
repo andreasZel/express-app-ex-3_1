@@ -27,4 +27,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: zelhs/node-application:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/node-application:latest
